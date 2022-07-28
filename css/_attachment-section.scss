@@ -1,0 +1,63 @@
+.attachment-section{
+    position: relative;
+    .discover-heading{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translatex(-50%);
+        h2{
+            font-family: 'Pinyon Script', cursive;
+            color: #FFA33E;
+            font-size: 5.5rem;
+        }
+        h3{
+            font-size: 3.3rem;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 4px;
+            position: relative;
+            top: -55px;
+        }
+    }
+}
+
+// responsive in max width 991
+
+@media only screen and (max-width:991px){
+    .attachment{
+        height: 300px;
+    }
+}
+
+// responsive in max width 768
+
+@media only screen and (max-width:768px){
+    .attachment{
+        background-position-x: -160px;
+    }
+}
+
+
+// responsive in max width 480
+
+@media only screen and (max-width:480px){
+    .attachment{
+        height: 200px;
+    }
+    .attachment-section{
+        .discover-heading{
+            position: relative;
+            top: 30px;
+            h3{
+                line-height: 45px;
+                font-size: 2.6rem;
+            }
+        }
+    }
+    
+}
+
+
+

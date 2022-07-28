@@ -1,0 +1,52 @@
+.our-specialties{
+    background-color: #E4E4E4;
+}
+
+.speacialimage{
+    padding: 0;
+    img{
+        width: 100%;
+        display: block;
+    }
+}
+.speacialdetails{
+    padding: 30px;
+    background-color: #fff;
+    h2{
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    p{
+        padding: 10px 20px 20px;
+        color: #8b8e94;
+    }
+    span{
+        color:#FFA33E;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+
+// responsive in 767 px
+
+@media only screen and (max-width:767px){
+    .speacialimage img{
+        height: 200px;
+        object-fit: cover;
+    }
+    .speacial-div{
+        margin-bottom: 30px;
+    }
+}
+
+
+// responsive in 575 px
+
+@media only screen and (max-width:575px){
+    .speacialimage img{
+        height: 200px;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,52 @@
+.discoverSection{
+    padding: 80px 0;
+}
+
+
+.discoverDetails{
+    padding: 20px;
+    h2{
+        font-family: 'Pinyon Script', cursive;
+        font-size: 5rem;
+        color: #FFA33E;
+        margin-bottom: 0;
+    }
+    h3{
+        text-transform: uppercase;
+        font-size: 3.2rem;
+        position: relative;
+        top: -45px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        margin-bottom: 0;
+    }
+    span{
+        color: #ccc;
+    }
+    P{
+        color: #8b8e94; 
+        font-weight: 500;
+        line-height: 1.7rem;
+        margin: 10px 0 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+.discoverImage{
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+// rseponsive in max width 900
+
+@media only screen and (max-width:900px){
+    .discoverDetails {
+        margin-bottom: 10px;
+    }
+}

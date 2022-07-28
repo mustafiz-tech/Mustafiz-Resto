@@ -1,0 +1,52 @@
+.form-section{
+    padding: 100px 0;
+}
+label{
+    color: #8b8e94;
+    font-weight: 500;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    outline: none;
+    transition: all 100s ease;
+}
+.form-margin{
+    margin-bottom: 15px;
+}
+.inputStyling{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+::placeholder{
+    color:#8b8e94;
+    font-weight: 500;
+}
+.submit{
+    margin-top: 20px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 10px 150px;
+    background-color: #FFA33E;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+// rseponsive in max width 900
+
+
+@media only screen and (max-width:900px){
+    .submit{
+        width: 96%;
+    }
+}

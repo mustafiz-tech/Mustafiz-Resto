@@ -1,0 +1,57 @@
+.price-menu{
+    padding: 120px 0;
+}
+
+.price-image{
+    padding-right: 0;
+    img{
+        width: 100%;
+        display: block;
+        border-radius: 50%;
+    }
+}
+.price-details{
+    padding-top: 20px;
+    h2{
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0;
+        position: relative;
+        span{
+            color: #FFA33E;
+            font-weight: 500;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    p{
+        color: #8b8e94;
+    }
+}
+
+.pricing-marrgin{
+    margin-bottom: 30px;
+}
+
+
+
+// rseponsive in max width 900
+
+
+@media only screen and (max-width:900px){
+    .pricing-bottom{
+        margin-top: 30px;
+    }
+}
+
+// responsive in max width 575
+
+
+@media only screen and (max-width:575px){
+    .price-details h2 span{
+        top: -25px;
+        left: 0;
+    }
+}

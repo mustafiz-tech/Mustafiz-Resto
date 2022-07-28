@@ -1,0 +1,61 @@
+.contact-section{
+    padding: 100px 0;
+    .discoverDetails{
+        padding: 20px 0;
+        p{
+            margin: 0;
+        }
+    }
+}
+
+.contact-details{
+    margin-bottom: 15px;
+}
+.area{
+    height: 250px;
+}
+.contact-submit{
+    padding: 10px 20px;
+    margin-top: 0;
+}
+
+
+// rseponsive in max width 900
+
+
+@media only screen and (max-width:900px){
+    .contact-submit{
+        width: 30%;
+    }
+}
+
+
+// responsive in max width 575
+
+
+@media only screen and (max-width:575px){
+    .main-food{
+        margin-bottom: 30px;
+    }
+}
+
+// responsive in max width 480
+
+
+@media only screen and (max-width:480px){
+    .contact-submit{
+        width: 40%;
+    }
+}
+
+// responsive in max width 360
+
+
+@media only screen and (max-width:360px){
+    .contact-submit{
+        width: 50%;
+    }
+    .contact-section .discoverDetails p{
+        padding: 0 20px;
+    }
+}

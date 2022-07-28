@@ -1,0 +1,41 @@
+.footer-section{
+    padding: 20px;
+    background-color: #262626;
+    p{
+        color: #8b8e94;
+        margin: 0;
+        font-weight: 300;
+        font-size: 0.9rem;
+        a{
+            color: #ffffff33;
+            text-decoration: none;
+            transition: all 300ms ease;
+        }
+        a:hover{
+            color: #fff;
+        }
+    }
+
+    .icons{
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #ffffff33;
+            margin-right: 15px;
+            transition: all 300ms ease;
+        }
+        a:hover{
+            color: #fff;
+        }
+    }
+}
+
+
+// responsive in max width 575
+
+
+@media only screen and (max-width:575px){
+    .footer-section p{
+        margin-bottom: 10px;
+    }
+}

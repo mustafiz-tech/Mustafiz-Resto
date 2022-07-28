@@ -1,0 +1,44 @@
+.last-section{
+    padding: 100px 0;
+    background-color: #000;
+    color: #ffffffb3;
+    p{
+        margin: 0;
+        font-size: 1rem;
+    }
+    h2{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+}
+.last-margin{
+    padding-top: 30px;
+}
+
+
+// responsive in max width 991
+
+
+@media only screen and (max-width:991px){
+    .last-margin{
+        padding-top: 20px;
+    }
+    .location{
+        padding-top: 2px;
+    }
+    .location-main{
+        margin-bottom: 30px;
+    }
+}
+
+// responsive in max width 768
+
+
+@media only screen and (max-width:768px){
+    .last-section{
+        padding: 50px 0;
+    }
+}

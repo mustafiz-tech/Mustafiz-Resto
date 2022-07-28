@@ -1,0 +1,41 @@
+.food-intro{
+    padding: 100px 0;
+    background-color: #E4E4E4;
+}
+
+.food-image{
+    img{
+        width: 100%;
+        display: block;
+    }
+}
+.main-food{
+    background-color: #fff;
+}
+.food-text{
+    padding: 15px 15px 30px;
+    h3{
+        color: #999;
+        font-size: 0.8rem;
+        margin-top: 10px;
+        letter-spacing: 3px;
+    }
+    h2{
+        margin-bottom: 10px;
+        a{
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    p{
+        color: #8b8e94;
+        margin-bottom: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+        font-size: 0.9rem;
+    }
+}

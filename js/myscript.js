@@ -7,7 +7,7 @@ $('.slider-main').slick({
     dots:true,
     arrows:true,
     fade:true,
-    prevArrow: '<i class="fa  fa-left-right left-arrows">',
+    prevArrow: '<i class="fa  fa-arrow-left left-arrows">',
     nextArrow: '<i class="fa  fa-arrow-right right-arrows">',
 });
 

@@ -29,6 +29,22 @@
 }
 
 
+
+
+
+
+// responsive in 991 px
+
+@media only screen and (max-width:991px){
+    .order-div{
+        order: 1;
+    }
+
+}
+
+
+
+
 // responsive in 767 px
 
 @media only screen and (max-width:767px){

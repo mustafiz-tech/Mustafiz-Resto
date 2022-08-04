@@ -48,6 +48,33 @@
     }
 }
 
+.navScroll{
+    background-color: #fff;
+    padding: 0;
+    animation: smoothScroll 1s forwards;
+    .customBrand{
+        color: #000;
+        border: none;
+    }
+    li a{
+        color: #000;
+        transition: all 300ms ease;
+    }
+    li a:hover{
+        color: #ff9725;
+    }
+}
+
+@keyframes smoothScroll{
+    0%{
+        -webkit-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+    100%{
+        -webkit-transform: translatey(0px);
+        transform: translatey(0px);
+    }
+}
 
 
 
@@ -59,6 +86,7 @@
         nav{
             padding: 10px;
             background-color: #fff;
+            border-bottom: 1px solid #8b8e94;
             a{
                 color: #000;
             }
@@ -67,15 +95,21 @@
             }
             ul{
                 position: absolute;
-                top: 58px;
+                top: 50px;
                 left: 0;
                 display: none;
                 width: 100%;
                 background-color: #fff;
                 li{
                     margin-bottom: 15px;
+                    transition: all 300ms ease;
                     a{
                         color: rgba(0,0,0,.7);
+                    }
+                }
+                li:hover{
+                    a{
+                        color: #ff9725;
                     }
                 }
             }

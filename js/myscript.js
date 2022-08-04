@@ -17,3 +17,11 @@ $(function(){
     })
 })
 
+$(document).scroll(function(){
+    if ($(document).scrollTop() > 100){
+     $('nav').addClass('navScroll');
+    }
+    else{
+        $('nav').removeClass('navScroll')
+    }
+})

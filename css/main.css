@@ -115,10 +115,46 @@ body {
   margin-bottom: 0;
 }
 
+.navScroll {
+  background-color: #fff;
+  padding: 0;
+  -webkit-animation: smoothScroll 1s forwards;
+          animation: smoothScroll 1s forwards;
+}
+.navScroll .customBrand {
+  color: #000;
+  border: none;
+}
+.navScroll li a {
+  color: #000;
+  transition: all 300ms ease;
+}
+.navScroll li a:hover {
+  color: #ff9725;
+}
+
+@-webkit-keyframes smoothScroll {
+  0% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
 @media only screen and (max-width: 768px) {
   .navSection nav {
     padding: 10px;
     background-color: #fff;
+    border-bottom: 1px solid #8b8e94;
   }
   .navSection nav a {
     color: #000;
@@ -128,7 +164,7 @@ body {
   }
   .navSection nav ul {
     position: absolute;
-    top: 58px;
+    top: 50px;
     left: 0;
     display: none;
     width: 100%;
@@ -136,9 +172,13 @@ body {
   }
   .navSection nav ul li {
     margin-bottom: 15px;
+    transition: all 300ms ease;
   }
   .navSection nav ul li a {
     color: rgba(0, 0, 0, 0.7);
+  }
+  .navSection nav ul li:hover a {
+    color: #ff9725;
   }
   .navSection .nav-button {
     display: block;

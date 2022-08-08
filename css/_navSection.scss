@@ -21,6 +21,23 @@
             }
         }
     }
+    .navScroll{
+        background-color: #fff;
+        padding: 20px;
+        animation: smoothScroll 1s forwards;
+        transition: all 300ms ease;
+        .customBrand{
+            color: #000;
+            border-color: #000;
+        }
+        li a{
+            color: #000;
+            transition: all 300ms ease;
+        }
+        li a:hover{
+            color: #ff9725;
+        }
+    }
 
 }
 .nav-button{
@@ -48,22 +65,6 @@
     }
 }
 
-.navScroll{
-    background-color: #fff;
-    padding: 0;
-    animation: smoothScroll 1s forwards;
-    .customBrand{
-        color: #000;
-        border: none;
-    }
-    li a{
-        color: #000;
-        transition: all 300ms ease;
-    }
-    li a:hover{
-        color: #ff9725;
-    }
-}
 
 @keyframes smoothScroll{
     0%{
@@ -78,7 +79,7 @@
 
 
 
-// rseponsive in max width 900
+// rseponsive in max width 768
 
 
 @media only screen and (max-width:768px){

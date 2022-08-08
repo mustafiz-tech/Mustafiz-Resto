@@ -89,6 +89,24 @@ body {
 .navSection nav ul li {
   margin-left: 20px;
 }
+.navSection .navScroll {
+  background-color: #fff;
+  padding: 20px;
+  -webkit-animation: smoothScroll 1s forwards;
+          animation: smoothScroll 1s forwards;
+  transition: all 300ms ease;
+}
+.navSection .navScroll .customBrand {
+  color: #000;
+  border-color: #000;
+}
+.navSection .navScroll li a {
+  color: #000;
+  transition: all 300ms ease;
+}
+.navSection .navScroll li a:hover {
+  color: #ff9725;
+}
 
 .nav-button {
   width: 30px;
@@ -113,24 +131,6 @@ body {
 }
 .nav-button .list .lastDiv {
   margin-bottom: 0;
-}
-
-.navScroll {
-  background-color: #fff;
-  padding: 0;
-  -webkit-animation: smoothScroll 1s forwards;
-          animation: smoothScroll 1s forwards;
-}
-.navScroll .customBrand {
-  color: #000;
-  border: none;
-}
-.navScroll li a {
-  color: #000;
-  transition: all 300ms ease;
-}
-.navScroll li a:hover {
-  color: #ff9725;
 }
 
 @-webkit-keyframes smoothScroll {
@@ -299,9 +299,6 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  .bannerSection {
-    padding-top: 50px;
-  }
   .threeBanners {
     background-position-x: -100px;
   }
